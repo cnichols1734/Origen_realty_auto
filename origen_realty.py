@@ -17,7 +17,7 @@ time.sleep(3)
 driver.find_element(By.XPATH, '//*[@id="menu-item-273"]/a').click()
 
 # Sleep to allow site to load
-time.sleep(3)
+time.sleep(4)
 
 # Find the form elements
 name_field = driver.find_element(By.XPATH, '//*[@id="wpcf7-f271-p272-o1"]/form/div[2]/span[1]/input')
