@@ -10,11 +10,13 @@ PATH = '/Users/christophernichols/Downloads/chromedriver'
 driver = webdriver.Chrome(PATH)
 driver.get('https://origenrealty.com')
 
+# Sleep to allow site to load
 time.sleep(3)
 
 # Click the "Contact" menu item
 driver.find_element(By.XPATH, '//*[@id="menu-item-273"]/a').click()
 
+# Sleep to allow site to load
 time.sleep(3)
 
 # Find the form elements
@@ -33,7 +35,7 @@ message_field.send_keys("test message")
 submit_button = driver.find_element(By.XPATH, "//*[@id='wpcf7-f271-p272-o1']/form/div[2]/input")
 
 # Click the submit button
-submit_button.click()
+#submit_button.click()
 
 # To keep chrom open
 time.sleep(30)
