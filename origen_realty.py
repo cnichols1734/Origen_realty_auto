@@ -35,7 +35,7 @@ message_field.send_keys("test message")
 submit_button = driver.find_element(By.XPATH, "//*[@id='wpcf7-f271-p272-o1']/form/div[2]/input")
 
 # Click the submit button
-#submit_button.click()
+submit_button.click()
 
 # To keep chrom open
 time.sleep(30)
