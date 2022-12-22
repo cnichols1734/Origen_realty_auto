@@ -35,5 +35,8 @@ submit_button = driver.find_element(By.XPATH, "//*[@id='wpcf7-f271-p272-o1']/for
 # Click the submit button
 submit_button.click()
 
-
+# To keep chrom open
 time.sleep(30)
+
+# To close chrome
+driver.quit()
