@@ -19,8 +19,8 @@ time.sleep(1)
 
 # Scroll down 1/5 of the page
 scroll_amount = driver.execute_script("return Math.max( document.body.scrollHeight, document.body.offsetHeight, "
-                                      "document.documentElement.clientHeight, document.documentElement.scrollHeight, "
-                                      "document.documentElement.offsetHeight );") / 5
+"document.documentElement.clientHeight, document.documentElement.scrollHeight, "
+"document.documentElement.offsetHeight );") / 5
 driver.execute_script(f"window.scrollTo(0, {scroll_amount});")
 
 # Find the form elements
