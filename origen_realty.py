@@ -31,11 +31,11 @@ message_field = driver.find_element(By.XPATH, '//*[@id="wpcf7-f271-p272-o1"]/for
 other_comments = driver.find_element(By.XPATH,'//*[@id="wpcf7-f271-p272-o1"]/form/div[2]/span[3]/textarea')
 
 # Enter the form values
-name_field.send_keys("Test Software")
-email_field.send_keys("Testuser@mail.com")
-phone_field.send_keys("7777777777")
-message_field.send_keys("Test message")
-other_comments.send_keys("This is written by automated software :)")
+name_field.send_keys("Arthur")
+message_field.send_keys("King of The Britons")
+email_field.send_keys("King_arthur@mail.com")
+phone_field.send_keys("555-555-5555")
+other_comments.send_keys("What do you mean, an African or European swallow? ")
 
 # Find the submit button element
 submit_button = driver.find_element(By.XPATH, "//*[@id='wpcf7-f271-p272-o1']/form/div[2]/input")
